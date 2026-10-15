@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Frank Vinicius, estudante de tecnologia com foco em análise de dados, visão computacional e aprendizado de máquina.">
+  <title>Frank Vinicius | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Frank Vinicius - início">FV<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#projetos">Detalhes do Projeto</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#recomendacoes">Recomendações</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-avatar" aria-hidden="true">FV</div>
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFÓLIO • TECNOLOGIA E DADOS</p>
+        <h1>Olá, eu sou <span>Frank Vinicius</span></h1>
+        <p class="hero-lead">Estudante de tecnologia, desenvolvendo soluções com programação, análise de dados e inteligência artificial.</p>
+        <div class="hero-tags"><span>Python</span><span>Desenvolvimento Web</span><span>Machine Learning</span></div>
+        <a class="button button-primary" href="#projetos">Conheça meus projetos <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">UM POUCO SOBRE MIM</p>
+        <h2>Sobre Mim</h2>
+      </div>
+      <div class="about-card">
+        <p>Sou estudante e estou me especializando em <strong>análise de dados, visão computacional e aprendizado de máquina</strong>. Gosto de transformar ideias em projetos práticos, aprender novas ferramentas e desenvolver soluções que facilitem tarefas do dia a dia.</p>
+        <p>Tenho explorado Python, desenvolvimento web e criação de aplicações, sempre buscando fortalecer minha base técnica e construir um portfólio consistente. Meu objetivo é continuar evoluindo e contribuir com projetos reais em equipes de tecnologia.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FERRAMENTAS E CONHECIMENTOS</p>
+          <h2>Habilidades</h2>
+          <p class="section-intro">Tecnologias que venho estudando e aplicando em projetos práticos.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-logo python-logo">Py</div><h3>Python</h3><p>Fundamentos, lógica e automação.</p></article>
+          <article class="skill-card"><div class="skill-logo html-logo">5</div><h3>HTML5</h3><p>Estruturação semântica de páginas.</p></article>
+          <article class="skill-card"><div class="skill-logo css-logo">3</div><h3>CSS3</h3><p>Layouts responsivos e estilização.</p></article>
+          <article class="skill-card"><div class="skill-logo js-logo">JS</div><h3>JavaScript</h3><p>Interatividade e manipulação do DOM.</p></article>
+          <article class="skill-card"><div class="skill-logo data-logo">▥</div><h3>Análise de Dados</h3><p>Organização, exploração e interpretação de dados.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading">
+        <p class="eyebrow">EXPERIÊNCIA PRÁTICA</p>
+        <h2>Detalhes do Projeto</h2>
+        <p class="section-intro">Alguns projetos e ideias que representam meu aprendizado em tecnologia.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div><div class="project-content">
+            <p class="project-type">PYTHON • FLASK • SQLITE</p><h3>Sistema de ocorrências</h3>
+            <p>Aplicação web para registrar e organizar ocorrências de um condomínio, com cadastro de funcionários e armazenamento em banco de dados.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>SQLite</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div><div class="project-content">
+            <p class="project-type">HTML • CSS • JAVASCRIPT</p><h3>Sistema de gestão de alunos</h3>
+            <p>Interface para acompanhar cadastros, pagamentos e vencimentos, com recursos para organizar informações e gerar recibos.</p>
+            <div class="project-tags"><span>JavaScript</span><span>UI</span><span>Gestão</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div><div class="project-content">
+            <p class="project-type">UX/UI • PROTOTIPAGEM</p><h3>Pesquisa de satisfação</h3>
+            <p>Protótipo de questionário para tablet, pensado para facilitar a coleta de avaliações e apresentar indicadores ao responsável pelo estabelecimento.</p>
+            <div class="project-tags"><span>Figma</span><span>UX/UI</span><span>Prototipagem</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section recommendations-section" id="recomendacoes">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MENSAGENS</p>
+          <h2>Recomendações</h2>
+          <p class="section-intro">Mensagens de exemplo para demonstrar o funcionamento da seção. Substitua-as por recomendações reais quando tiver autorização.</p>
+        </div>
+        <div class="recommendations-grid" id="recommendationList">
+          <blockquote class="recommendation-card"><span class="quote-mark">“</span><p>Frank demonstra curiosidade, dedicação e vontade de aprender novas tecnologias.</p><footer>— Recomendação de exemplo</footer></blockquote>
+          <blockquote class="recommendation-card"><span class="quote-mark">“</span><p>Tem iniciativa para transformar conteúdos estudados em projetos práticos e funcionais.</p><footer>— Recomendação de exemplo</footer></blockquote>
+          <blockquote class="recommendation-card"><span class="quote-mark">“</span><p>Busca evoluir continuamente e tem interesse em desenvolver soluções úteis para pessoas e negócios.</p><footer>— Recomendação de exemplo</footer></blockquote>
+        </div>
+        <form class="recommendation-form" id="recommendationForm">
+          <div><p class="eyebrow">CONTRIBUA COM O PORTFÓLIO</p><h3>Deixe uma recomendação</h3></div>
+          <label for="recommendationText">Sua mensagem</label>
+          <textarea id="recommendationText" name="recommendationText" rows="4" maxlength="400" placeholder="Escreva sua recomendação..." required></textarea>
+          <button class="button button-primary" type="submit">Enviar recomendação <span aria-hidden="true">→</span></button>
+          <p class="form-note">A mensagem será adicionada nesta página durante a sessão atual.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#inicio">FV<span>.</span></a><p>Construindo conhecimento, um projeto de cada vez.</p><a href="#topo" class="back-top">Voltar ao topo ↑</a></div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite">Recomendação enviada com sucesso!</div>
+</body>
+</html>
